@@ -40,6 +40,10 @@ class VerificationPage extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ForgotPasswordPage()),
+                );
                 // Handle OTP verification
               },
               child: Text('Verify'),

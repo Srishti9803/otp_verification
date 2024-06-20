@@ -17,12 +17,9 @@ class ForgotPasswordPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('assets/easyghar_logo.png'), // Replace with your image
+            Image.asset('assets/logo/logo.png'), // Replace with your image
             SizedBox(height: 20),
-            Text(
-              'Forgot Password',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-            ),
+
             SizedBox(height: 10),
             Text('Enter your email to receive an OTP.'),
             SizedBox(height: 20),
